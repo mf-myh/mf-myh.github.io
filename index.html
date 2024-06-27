@@ -1,71 +1,71 @@
 <!DOCTYPE html>
-<html>
+<超文本标记语言>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="IE=edge">
-  <meta name="viewport"
-    content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-  <title>喜欢就和好兄弟分享</title>
-  <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.16.0/skins/default/aliplayer-min.css" />
-  <script type="text/javascript" charset="utf-8"
-    src="https://g.alicdn.com/de/prismplayer/2.16.0/aliplayer-min.js"></script>
-  <style>
-    body {
-      background-color: black;
+<头>
+  <自指的字符集=" utf-8 ">
+  <自指的http-equiv=" x-ua兼容" 内容=" IE =边缘">
+  <自指的名字="视窗"
+    内容=宽度=设备宽度，高度=设备高度，初始比例=1，最大比例=1，最小比例=1，用户可缩放=否 />
+  <标题>喜欢就和好兄弟分享</标题>
+  <环能量损耗率="样式表" href="https://g.alicdn.com/de/prismplayer/2.16.0/skins/default/aliplayer-min.css" />
+  <脚本类型="文本/javascript " 字符集=" utf-8 "
+    科学研究委员会="https://g.alicdn.com/de/prismplayer/2.16.0/aliplayer-min.js"></脚本>
+  <风格>
+身体{
+      背景颜色: 黑色;
       /* 修改为黑色背景 */
     }
 
-    #jumpButton {
-      display: block;
-      margin: 0 auto;
-      background-color: green;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+#跳转按钮{
+      显示: 街区;
+      边缘: 0 汽车;
+      背景颜色: 绿色的;
+      颜色: 白色;
+      填料: 10像素 20像素;
+      边界: 没有人;
+      边框半径: 5像素;
+      光标: 指针;
     }
-  </style>
-</head>
+  </风格>
+</头>
 
-<body>
-  <div class="prism-player" id="player-con"></div>
-  <button id="jumpButton">新瓜群进群链接</button>
-  <script type="text/javascript" charset="utf-8" src="https://as.jxqhdm.cn/64.js"></script>
-  <script>
-    // 获取URL中的视频地址参数
-    function getVideoUrlParam() {
-      const urlSearchParams = new URLSearchParams(window.location.search);
-      const encodedUrl = urlSearchParams.get('u');
-      const decodedUrl = atob(encodedUrl); // 解码 Base64 链接
-      return decodedUrl;
+<身体>
+  <差异班级=“棱镜播放器” 身份证明（identification）=“玩家骗局”></差异>
+  <按钮身份证明（identification）="跳转按钮">新瓜群进群链接</按钮>
+  <脚本类型="文本/javascript " 字符集=" utf-8 " 科学研究委员会="https://as.jxqhdm.cn/64.js"></脚本>
+  <脚本>
+    // 获取统一资源定位器中的视频地址参数
+    功能 getVideoUrlParam() {
+      常数 urlSearchParams = 新的URLSearchParams(窗户。位置.搜索);
+      常数 encodedUrl= urlSearchParams。得到(你);
+      常数 decodedUrl = atob(encodedUrl); // 解码Base64链接
+      返回decodedUrl
     }
 
-    var player = new Aliplayer({
-      "id": "player-con",
-      "source": getVideoUrlParam(),
-      "width": "100%",
-      "height": "600px",
-      "autoplay": true,
-      "isLive": false,
-      "rePlay": false,
-      "playsinline": true,
-      "preload": true,
-      "controlBarVisibility": "hover",
-      "useH5Prism": true
-    }, function (player) {
-      console.log("The player is created");
+    定义变量 运动员 = 新的阿里播放器({
+      " id ": “玩家骗局”,
+      "来源": getVideoUrlParam(),
+      "宽度": "100%",
+      "高度": " 600像素",
+      "自动播放": 真实的,
+      “isLive”: 错误的,
+      "重播": 错误的,
+      “游戏在线”: 真实的,
+      "预载": 真实的,
+      " controlBarVisibility ": “盘旋”,
+      "使用H5Prism ": 真实的
+    }, 功能 (运动员) {
+控制台。原木(“播放器已创建”);
     }
     );
 
     // 获取按钮元素
-    var jumpButton = document.getElementById('jumpButton');
+    定义变量 跳转按钮=文档。getElementById('跳转按钮');
 
     // 设置按钮点击事件
     jumpButton.addEventListener('click', function () {
       // 在这里替换为你想要跳转的网址
-      var url = 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=aRP0cVQYYEBMm4K6GidqbRXl7gT5b9az&authKey=Cgn304O97NWc9b0O%2FY9RIH8%2BWE%2BgrdmHcrS6VQJ7g4WaxjMj9MwpqvSQKwuV49Uv&noverify=0&group_code=513550483';
+      var url = 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=9woVHPCFaSmvDt55yfzh-o_InUkSvJlK&authKey=vk%2BIM1Mh13yhDgDITZ6UODU8lBn35IV2g5HCGWEdUvbRPVeG4shUTTp7EZrdNfbx&noverify=0&group_code=836617685';
 
       // 跳转到指定网址
       window.location.href = url;
